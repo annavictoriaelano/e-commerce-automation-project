@@ -1,8 +1,8 @@
 const { google } = require('googleapis');
 const fs = require('fs');
 
-// Credentials file path
-const CREDENTIALS_PATH = 'D:\\Project Credentials\\e-commerce-automation-project-d45821641781.json';
+// Credentials file path - supports both local and GitHub Actions environments
+const CREDENTIALS_PATH = process.env.CREDENTIALS_PATH || 'D:\\Project Credentials\\e-commerce-automation-project-d45821641781.json';
 
 // Your Google Sheet ID
 const SPREADSHEET_ID = '1l3-RczqZHXSKHfZpiDKxRFKxIrd-i4scV3rUL_MBk5E';
