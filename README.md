@@ -140,4 +140,4 @@ The project uses GitHub Actions to:
 
 ## 📄 License
 
-This project is for portfolio demonstration purposes.
+This project is for demonstration purposes.
